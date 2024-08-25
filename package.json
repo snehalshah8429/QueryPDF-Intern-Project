@@ -1,0 +1,24 @@
+{
+  "name": "chatwithpdf",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "@langchain/community": "^0.2.16",
+    "@langchain/openai": "^0.2.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "faiss-node": "^0.5.1",
+    "hnswlib-node": "^3.0.0",
+    "langchain": "^0.2.8",
+    "pdf-parse": "^1.1.1",
+    "pickleparser": "^0.2.1"
+  }
+}
